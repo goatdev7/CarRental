@@ -1,0 +1,204 @@
+header{
+    height: 35vw;
+}
+.lists{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    position: relative;
+    top: 1vw;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.4vw;
+}
+.lists li:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+ a:link{
+    text-decoration: none;
+    color: black;
+}
+li a:focus{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+.inner_nav{
+    background-color: orange;
+    height: 4vw;
+    text-align: center;
+}
+.inner_nav:hover{
+    height: 5vw;
+    cursor: pointer;
+    transition: height 1.2s ease-in-out;
+}
+.nav_img{
+    filter: brightness(44%);
+    overflow: hidden;
+}
+.nav_heading{
+    display: flex;
+    justify-content: center;
+    letter-spacing:4vw;
+    font-size: 10vw;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    top: -23vw;
+    /* background-color: antiquewhite; */
+}
+
+/* body styling */
+.inner-form{
+    text-align: center;
+    position:relative;
+    top: 2vw;
+}
+label{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+form{
+    /* background-color: antiquewhite; */
+
+}
+
+/* Chrome, Safari, Edge, Opera */
+form input::-webkit-outer-spin-button,
+form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+form input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.forms select, input{
+    background-color: white;
+    border: 1px solid orange;
+    border-radius: 0.42vw;
+    /* margin-left: 1.2vw; */
+    width: 25vw;
+    height: 2.5vw;
+}
+select *:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+#btn{
+    position: relative;
+    top: 2vw;
+    background-color: orange;
+    color: white;
+    height: 3vw;
+    font-size: 1.52vw;
+    /* letter-spacing: 1vw; */
+}
+#btn:hover
+{
+    color: black;
+}
+/* footer styling */
+footer{
+    background-color: orange;
+    position: relative;
+    top: 5vw;
+}
+.options{
+    position: relative;
+    /* top: 80vw; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+.inner{
+    width: 30vw;
+}
+.inner2{
+    width: 30vw;
+}
+
+.inner h1{
+    font-size: 4vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: Black;
+    text-align: center;
+
+}
+.inner p{
+    text-align: center;
+}
+.inner2 h1{
+    font-size: 4vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: Black;
+    text-align: center;
+
+}
+.inner2 p{
+    text-align: center;
+}
+.contacts ul{
+    display: flex;
+    list-style-type:none;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+.contacts ul li{
+    margin-left: 2vw;
+    font-size: 1.18vw;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    margin:auto;  
+}
+
+hr{
+    width: 70vw;
+    position: relative;
+    /* left: 20vw; */
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 184, 68);
+}
+.copy span{
+    color: white;
+    cursor: pointer;
+}
+.copy span:hover{
+    color: black;
+    cursor: pointer;
+}
+.logout input[type=submit]{
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+}
+.success{
+    text-align: center;
+    position: relative;
+    top: 1vw;
+    background-color: rgb(81, 158, 81);
+}
+.success h2{
+    text-align: center;
+    color: beige;
+    font-size: 3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,130 @@
+.lists{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    position: relative;
+    top: 1vw;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.4vw;
+}
+.lists li:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+ a:link{
+    text-decoration: none;
+    color: black;
+}
+li a:focus{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+.inner_nav{
+    background-color: orange;
+    height: 4vw;
+    text-align: center;
+}
+.inner_nav:hover{
+    height: 5vw;
+    cursor: pointer;
+    transition: height 1.2s ease-in-out;
+}
+.nav_img{
+    filter: brightness(44%);
+    overflow: hidden;
+}
+.nav_heading{
+    display: flex;
+    justify-content: center;
+    letter-spacing:4vw;
+    font-size: 10vw;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    top: -23vw;
+    /* background-color: antiquewhite; */
+}
+
+
+/* footer styling */
+footer{
+    background-color: orange;
+}
+.options{
+    position: relative;
+    /* top: 80vw; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+.inner{
+    width: 30vw;
+}
+.inner2{
+    width: 30vw;
+}
+
+.inner h1{
+    font-size: 4vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: Black;
+    text-align: center;
+
+}
+.inner p{
+    text-align: center;
+}
+.inner2 h1{
+    font-size: 4vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: Black;
+    text-align: center;
+
+}
+.inner2 p{
+    text-align: center;
+}
+.contacts ul{
+    display: flex;
+    list-style-type:none;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+.contacts ul li{
+    margin-left: 2vw;
+    font-size: 1.18vw;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+    margin:auto;  
+}
+
+hr{
+    width: 70vw;
+    position: relative;
+    /* left: 20vw; */
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 184, 68);
+}
+.copy span{
+    color: white;
+    cursor: pointer;
+}
+.copy span:hover{
+    color: black;
+    cursor: pointer;
+}

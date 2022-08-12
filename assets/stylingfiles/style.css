@@ -1,0 +1,288 @@
+header{
+    height: 35vw;
+}
+.lists{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    position: relative;
+    top: 1vw;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 1.4vw;
+}
+.lists li:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+ a:link{
+    text-decoration: none;
+    color: black;
+}
+li a:focus{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+.inner_nav{
+    background-color: orange;
+    height: 4vw;
+    text-align: center;
+}
+.inner_nav:hover{
+    height: 5vw;
+    cursor: pointer;
+    transition: height 1.2s ease-in-out;
+}
+.nav_img{
+    filter: brightness(44%);
+    overflow: hidden;
+}
+.nav_heading{
+    display: flex;
+    justify-content: center;
+    letter-spacing:4vw;
+    font-size: 10vw;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    top: -23vw;
+    /* background-color: antiquewhite; */
+}
+/* body stling */
+.services{
+    position: relative;
+    height: 15vw;
+}
+.services img{
+    position: relative;
+    left: 44vw;
+}
+.ser{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -10vw;
+}
+.ser-1{
+width: 30vw;
+}
+.ser-1 h1,p{
+    text-align: center;
+}
+.ser-2 h1,p{
+    text-align: center;
+}
+.ser-2{
+width: 30vw;
+}
+.join{
+    /* display: flex; */
+    text-align: center;
+    /* background-color: antiquewhite; */
+    /* justify-content: center; */
+    height: 10vw;
+}
+.join h1{
+    position: relative;
+    /* left: 6vw; */
+}
+.join a button{
+    text-align: center;
+    position: relative;
+    top: 1vw;
+}
+.join button:hover{
+    opacity: 0.8;
+    color: white;
+}
+.join button{
+
+    color: black;
+    background-color: orange;
+    height: 3vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 10vw;
+    border: 1px solid orange;
+    border-radius: 3vw;
+}
+
+.fleet{
+    /* background-color: antiquewhite; */
+    position: relative;
+    top: 2vw;
+}
+.fleet img{
+    position: relative;
+    left: 42vw;
+}
+.desc{
+    text-align: center;
+}
+.desc h1{
+    display: flex;
+    justify-content: center;
+}
+
+.desc a{
+    position: relative;
+    top: 1vw;
+    left: 0.4vw;
+}
+.desc button{
+    background-color: orange;
+    color: black;
+    height: 3vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 10vw;
+    border: 1px solid orange;
+    border-radius: 3vw;
+}
+.desc button:hover{
+    opacity: 0.8;
+    color: white;
+}
+.testimonials{
+    position: relative;
+    top: 7vw;
+    
+    /* background-color: antiquewhite; */
+}
+.testimonials h1{
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+}
+.inner-test{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.inner-test h1{
+
+    font-size: 2.6vw;
+}
+
+.iner-test h1,p{
+    text-align: center;
+}
+.test1, .test2, .test3{
+    border: 1px solid transparent;
+    border-radius: 2vw;
+    width: 30vw;
+    background-color: rgb(238, 243, 248);
+
+}
+.book-btn{
+    text-align: center;
+    /* background-color: antiquewhite; */
+    position: relative;
+    top: 2vw;
+}
+.book-btn a button{
+
+    background-color: orange;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 2vw;
+    width: 10vw;
+    height: 3vw;
+
+}
+a button:hover{
+    color: white;
+}
+
+
+/* footer styling */
+footer{
+    background-color: orange;
+    position: relative;
+    top: 10vw;
+}
+.options{
+    position: relative;
+    /* top: 20vw; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+.inner{
+    width: 30vw;
+}
+.inner2{
+    width: 30vw;
+}
+
+.inner h1{
+    font-size: 4vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: Black;
+    text-align: center;
+
+}
+.inner p{
+    text-align: center;
+}
+.inner2 h1{
+    font-size: 4vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: Black;
+    text-align: center;
+
+}
+.inner2 p{
+    text-align: center;
+}
+.contacts ul{
+    display: flex;
+    list-style-type:none;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+.contacts ul li{
+    margin-left: 5vw;
+    font-size: 1.18vw;
+    position: relative;
+    left: -8vw;
+}
+.phone{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-left: 2vw;   */
+    /* padding-left: 3vw; */
+}
+
+
+
+hr{
+    width: 70vw;
+    position: relative;
+    /* left: 20vw; */
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 184, 68);
+}
+.copy span{
+    color: white;
+    cursor: pointer;
+}
+.copy span:hover{
+    color: black;
+    cursor: pointer;
+}
+.logout input[type=submit]{
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+}
