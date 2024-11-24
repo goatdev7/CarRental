@@ -1,4 +1,4 @@
-# Throtle
+# Throttle
 This project is a Car Rental Management System built using PHP and MySQL, with a basic frontend using HTML, CSS, and JavaScript. The system offers a comprehensive set of functionalities to manage car rentals effectively, providing an intuitive interface for both administrators and customers.
 
 
